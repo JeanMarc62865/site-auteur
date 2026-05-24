@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Auterive, dis-moi ton histoire - Jean-Marc David</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f6f6f6; }
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+}
+
+.book {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 18px;
+    margin-bottom: 22px;
+    background: #faf8f5;
+}
+
+.book img {
+    width: 220px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #6e4b32;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(145deg, #a6784f, #8c5f3d);
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #7a5235;
+    box-shadow: 
+        0 4px 0 #6b452d,
+        0 6px 10px rgba(0,0,0,0.2);
+    transition: all 0.15s ease;
+}
+
+.button:hover {
+    background: linear-gradient(145deg, #b58358, #9a6a45);
+}
+
+.button:active {
+    transform: translateY(3px);
+    box-shadow: 
+        0 2px 0 #6b452d,
+        0 3px 6px rgba(0,0,0,0.2);
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #e0d6cc;
+    padding-bottom: 5px;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 30px;
+    color: #6e4b32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+@media (max-width: 700px) {
+    .book {
+        flex-direction: column;
+    }
+
+    .book img {
+        width: 100%;
+        max-width: 260px;
+        margin: auto;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="book">
+
+<div>
+<img src="../images/auterive.jpg" alt="Auterive, dis-moi ton histoire">
+</div>
+
+<div class="content">
+
+<h1>Auterive, dis-moi ton histoire</h1>
+<p><strong>Histoire locale</strong></p>
+
+<p>
+À travers cet ouvrage, l’auteur propose une plongée dans l’histoire d’Auterive, en s’appuyant sur des documents, des archives et des recherches approfondies.
+</p>
+
+<p>
+Ce livre s’adresse à tous ceux qui souhaitent mieux comprendre l’évolution de la ville, son identité et les événements qui ont marqué son développement au fil du temps.
+</p>
+
+<p>
+Il constitue à la fois un travail de mémoire et une invitation à redécouvrir le patrimoine local.
+</p>
+
+<a href="https://www.thebookedition.com/fr/37704_jean-marc-david" target="_blank" class="button">
+Commander ce livre
+</a>
+
+</div>
+</div>
+
+<div class="section">
+<h2>Base documentaire en ligne</h2>
+
+<p>
+Ce livre s’inscrit dans un travail de recherche plus large.
+Vous pouvez consulter la base documentaire complète dédiée à l’histoire d’Auterive :
+</p>
+
+<a href="https://histoire-auterive.netlify.app" target="_blank" class="button">
+Accéder à la base documentaire
+</a>
+
+</div>
+
+<a href="../index.html#livre-auterive" class="back">← Retour au site</a>
+
+</div>
+
+</body>
+</html>
